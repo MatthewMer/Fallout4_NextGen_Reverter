@@ -9,16 +9,18 @@ Scripts for reverting the next gen update of Fallout 4 because all mods relying 
 ```
 cd /d C:\path\to\repo
 ```
-* execute the first script to download the depots. You need to enter your steam credentials for steamcmd to be able to access them and append `hd` if you want to download the HD textures. The download will take some time.
+* execute the first script to download the depots. You need to enter your steam credentials for steamcmd to be able to access them and append `hd` if you want to download the HD textures, too. The download will take some time.
 
 HD:
 ```
-1_fallout_4_download_pre_next_gen.cmd username password hd
+1_fallout_4_download_pre_next_gen.cmd username hd
 ```
 No HD:
 ```
-1_fallout_4_download_pre_next_gen.cmd username password
+1_fallout_4_download_pre_next_gen.cmd username
 ```
+NOTE: the script will prompt you to enter your Steam password to access the depots on the Steam servers !
+
 (If you use steam 2FA you will be prompted to enter the code during execution)
 * Afterwards you need to install the files, just use the following command and replace the path with your Fallout 4 installation directory:
 ```
