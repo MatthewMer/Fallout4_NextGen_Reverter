@@ -1,9 +1,9 @@
 # Fallout4 Next Gen Reverter
-Scripts for reverting the next gen update of Fallout 4 because all mods relying on Script Extender are broken
+Scripts for reverting the next gen update of Fallout 4 because all mods relying on Script Extender are broken (see also the [page at nexusmods.com](https://www.nexusmods.com/fallout4/mods/81902))
 
 ## Usage ##
-* make sure you have a clean installation of Fallout 4 (except you know what you are doing)
-* clone the repository to a storage with enough free space, as you will essentially download the entiry game (~40GB without HD textures, ~90GB with HD textures)
+* ~~make sure you have a clean installation of Fallout 4 (except you know what you are doing)~~ The scripts will take care of content that breaks the game after downgrading. Your modded game should be fine afterwards and work as intended (except your mods modified existing game files in order to work).
+* clone the repository to a local storage with enough free space, as you will essentially download the entiry game (~40GB without HD textures, ~90GB with HD textures)
 * open a command prompt as administrator (depending on where your Fallout 4 installation is located)
 * go to the directory of the downloaded repository, e.g.
 ```
